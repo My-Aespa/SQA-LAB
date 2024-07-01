@@ -42,30 +42,30 @@ def print_promotion(total_cost):
 
 
 #TS001
-print("TS001")
-print_promotion(1)
-print_promotion(250)
-print_promotion(499)
+# print("TS001")
+# print_promotion(1)
+# print_promotion(250)
+# print_promotion(499)
 
 #TS002
-print("TS002")
-print_promotion(500)
-print_promotion(600)
-print_promotion(699)
+# print("TS002")
+# print_promotion(500)
+# print_promotion(600)
+# print_promotion(699)
 
 #TS003
-print("TS003")
-print_promotion(700)
-print_promotion(1000)
-print_promotion(1199)
+# print("TS003")
+# print_promotion(700)
+# print_promotion(1000)
+# print_promotion(1199)
 
 #TS004
-print("TS004")
-print_promotion(1200)
+# print("TS004")
+# print_promotion(1200)
 
 #TS005
-print("TS005")
-print_promotion(1201)
-print_promotion(1700)
-print_promotion(1900)
-print_promotion(2400)
+# print("TS005")
+# print_promotion(1201)
+# print_promotion(1700)
+# print_promotion(1900)
+# print_promotion(2400)

@@ -1,0 +1,5 @@
+print("TS005")
+print_promotion(1201)
+print_promotion(1700)
+print_promotion(1900)
+print_promotion(2400)

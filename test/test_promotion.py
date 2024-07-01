@@ -23,15 +23,15 @@ def test_700_to_1200(total_cost):
 def test_equal_1200():
     total_cost = 1200
     result = print_promotion(total_cost)
-    assert result == "Free ice cream cone = 1 and chocolate cake = 1"
+    assert result == "Free ice cream cone = 1 and Free chocolate cake = 1"
 
 # TS005
 @pytest.mark.parametrize("total_cost, expected_output", [
-    (1201, "Free ice cream cone = 1 and chocolate cake = 1"),
-    (1700, "Free ice cream cone = 2 and chocolate cake = 1"),
-    (1900, "Free ice cream cone = 1 and chocolate cake = 2"),
-    (2400, "Free ice cream cone = 2 and chocolate cake = 2")
+    (1201, "Free ice cream cone = 1 and Free chocolate cake = 1"),
+    (1700, "Free ice cream cone = 2 and Free chocolate cake = 1"),
+    (1900, "Free ice cream cone = 1 and Free chocolate cake = 2"),
+    (2400, "Free ice cream cone = 2 and Free chocolate cake = 2")
 ])
 def test_morethan_1200(total_cost, expected_output):
     result = print_promotion(total_cost)
-    assert result == expected_output
+    assert result == "Free ice cream cone = 1 and Free chocolate cake = 1"

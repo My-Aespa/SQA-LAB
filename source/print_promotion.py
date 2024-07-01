@@ -31,14 +31,14 @@ def print_promotion(total_cost):
                 temp_cost = 0
     else:
         # no gift
-        print(NO_GIFT)
+        return (NO_GIFT)
 
     if total_cost >= MAXIMUM:
-        print(FREE_ICECREAM + str(num_icecream) + " and " + FREE_CAKE + str(num_cake))
+        return (FREE_ICECREAM + str(num_icecream) + " and " + FREE_CAKE + str(num_cake))
     elif total_cost >= MIDRANGE:
-        print(FREE_CAKE + str(num_cake))
+        return (FREE_CAKE + str(num_cake))
     else:
-        print(FREE_ICECREAM + str(num_icecream))
+        return (FREE_ICECREAM + str(num_icecream))
 
 
 # TS001
@@ -48,10 +48,10 @@ def print_promotion(total_cost):
 # print_promotion(499)
 
 #TS002
-print("TS002")
-print_promotion(500)
-print_promotion(600)
-print_promotion(699)
+# print("TS002")
+# print_promotion(500)
+# print_promotion(600)
+# print_promotion(699)
 
 #TS003
 # print("TS003")
@@ -65,7 +65,7 @@ print_promotion(699)
 
 #TS005
 # print("TS005")
-# print_promotion(1201)
+# print (print_promotion(1201))
 # print_promotion(1700)
 # print_promotion(1900)
 # print_promotion(2400)

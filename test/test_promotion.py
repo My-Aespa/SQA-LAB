@@ -1,3 +1,7 @@
+# Lab#2 - Test design - designing practical test scenarios and test cases
+# Student name: Mr. Thanathorn Chulay
+# Student ID: 653380131-7
+
 import pytest
 from source.print_promotion import print_promotion
 

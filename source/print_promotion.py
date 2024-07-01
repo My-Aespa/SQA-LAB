@@ -41,17 +41,17 @@ def print_promotion(total_cost):
         print(FREE_ICECREAM + str(num_icecream))
 
 
-#TS001
+# TS001
 # print("TS001")
 # print_promotion(1)
 # print_promotion(250)
 # print_promotion(499)
 
 #TS002
-# print("TS002")
-# print_promotion(500)
-# print_promotion(600)
-# print_promotion(699)
+print("TS002")
+print_promotion(500)
+print_promotion(600)
+print_promotion(699)
 
 #TS003
 # print("TS003")
